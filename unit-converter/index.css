@@ -71,6 +71,7 @@ body {
     cursor: pointer;
     font-family: "Acme", sans-serif;
     font-size: 13px;
+    margin-top: 10px;
 }
 
 #btn-reset:hover {
