@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero">
+        <h1 id="hero-h1">Metric/Imperial Unit Conversion</h1>
+        <input id="input-value" value="0">
+        <button id="convert-btn">Convert</button>
+        <button id="btn-reset">Reset</button>
+        <button id="btn-icon">
+            <img src="light_24dp_FFF_FILL0_wght400_GRAD0_opsz24.svg" width="30" height="30">
+        </button>
+    </div>
+
+    <div class="main" id="main-sec">
+        <div class="item item-1">
+            <h2 class="section-title">Length (Meter/Feet)</h2>
+            <p class="section-description" id="output-length"></p>
+        </div>
+
+        <div class="item item-2">
+            <h2 class="section-title">Volume (Liters/Gallons)</h2>
+            <p class="section-description" id="output-volume"></p>
+        </div>
+
+
+        <div class="item item-3">
+            <h2 class="section-title">Mass (Kilograms/Pounds)</h2>
+            <p class="section-description" id="output-mass"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

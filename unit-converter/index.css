@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Acme", sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    background: #6943FF;
+    color: #fff;
+    padding-bottom: 30px;
+    height: 40vh;
+}
+
+#btn-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+#btn-icon img {
+    border: none;
+    display: block;
+}
+
+.hero h1 {
+    padding: 10px;
+}
+
+#input-value {
+    width: 117px;
+    height: 83px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background: none;
+    color: #fff;
+    text-align: center;
+    font-size: 58px;
+    margin-bottom: 10px;
+    font-family: "Acme", sans-serif;
+}
+
+
+#convert-btn {
+    border: none;
+    padding: 10px 30px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Acme", sans-serif;
+    font-size: 15px;
+}
+
+#convert-btn:hover {
+    background-color: #f0f0f0;
+}
+
+#btn-reset {
+    border: none;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Acme", sans-serif;
+    font-size: 13px;
+}
+
+#btn-reset:hover {
+    background-color: #f0f0f0;
+}
+
+.main {
+    height: 729px;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main .item {
+    border: 1px solid white;
+    margin: 0 30px;
+    background-color: #FFFFFF;
+    border-top-left-radius: 4.68px;
+    padding: 40px 20px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.item h2 {
+    color: #5A537B;
+}
+
+
+/* 🌙 Dark Mode Activated -> .dark-mode */
+body.dark-mode #main-sec {
+    background-color: #1F2937;
+}
+
+body.dark-mode .item {
+    background-color: #273549;
+}
+
+body.dark-mode .section-title {
+    color: #CCC1FF;
+}
+
+body.dark-mode .section-description {
+    color: #ffffff;
+}
