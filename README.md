@@ -34,4 +34,4 @@ It includes a **light/dark mode toggle**, a **reset button**, and uses basic **J
 1. Enter a number in the input field
 2. Click **Convert** to see the results
 3. Click the 💡 icon to toggle dark mode
-4. Click **Reset** to clear the input/output
+4. Click **Reset** to clear the input/outpu
